@@ -1,7 +1,7 @@
 # Page settings
 
 baseurl = "http://www.drewpotter.com/"
-languageCode = "en-uk"
+languageCode = "en-gb"
 title = "Andrew James Potter CV"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-129803999-1"
@@ -126,7 +126,7 @@ disable404 = true
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "Sport; Running, swimming, gym."
+        interest = "Sport; Running, swimming, gym. School Swimming team – District freestyle champion, School Athletics team – District cross country champion, Placed 2nd in U16 Spelthorne 4K Road Race, School Basketball team (District champions 1998), Placed 6th in Southern Schools Modern Biathlon Championships 2001, ranked 14th in the UK, Awarded School Physical Education Prize 1998."
 
         [[params.interests.list]]
         interest = "Education; Tutored GCSE Mathematics privately, I have an interest in education especially combined with technology."
@@ -220,7 +220,7 @@ disable404 = true
         screenshot = "strodes-wave-simulation-app.png"
 
         [[params.projects.list]]
-        title = "Yateley School Map 3d."
+        title = "Yateley School Map 3d"
         url = "https://drewpotter.com/assets/images/yateley-school-map-original.gif"
         tagline = "Programmed by Andrew Potter in 2017. Using Blender 3d and Blend4Web with Ruby on Rails and CoffeeScript."
         screenshot = "yateley-school-map.gif"
