@@ -1,0 +1,275 @@
+# Page settings
+
+baseurl = "http://www.drewpotter.com/"
+languageCode = "en-uk"
+title = "Andrew James Potter CV"
+theme = "hugo-orbit-theme"
+googleAnalytics = "UA-129803999-1"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = false
+disable404 = true
+
+[params]
+
+# Meta
+    description = "Hugo Responsive Resume/CV Theme for Developers"
+    author = "Pavel Kanyshev"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles-6.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Drew Potter"
+        tagline = "Web Developer"
+        avatar = "profile.png"
+        qr_code = "qr_code.png"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: hello@drewpotter.com"
+        title = "hello@drewpotter.com"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//drewpotter.com"
+        title = "drewpotter.com"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/drewpotter"
+        title = "drewpotter"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/drewpotter"
+        title = "github.com/drewpotter"
+
+        [[params.contact.list]]
+        class = "skype"
+        icon = "fa-skype"
+        title = "drewjpotter"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        details = "The Complete Elixir and Phoenix Bootcamp"
+        college = "Udemy"
+        dates = "Aug 2017 - Oct 2017"
+
+        [[params.education.list]]
+        details = "CentOS and Red Hat Linux to Certified System Administrator"
+        college = "Udemy"
+        dates = "Sep 2016 - Feb 2017"
+
+        [[params.education.list]]
+        degree = "BSc Physics 2.1"
+        details = "Problem solving, teamwork, research projects, computer programming: C++, Python and Java, theory and calculations. Member of the rowing team."
+        college = "RHUL, University of London"
+        dates = "Oct 2003 - July 2007"
+
+        [[params.education.list]]
+        details = "A Level Physics: A, Mathematics: B, Computing: B. Won bridge building project; application of Physics to solve a problem, wrote a C++ App to assist the project."
+        college = "Strodes College, Egham"
+        dates = "Sep 2001 - July 2003"
+
+        [[params.education.list]]
+        details = "GCSE Double Science: A*, History: A*, Mathematics: A, Religious Ed: A, Electronics: A, French: A, English Language: A, Geography: B, English Literature: B."
+        college = "Thamesmead School, Shepperton"
+        dates = "Sep 1997 - July 2001"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "French"
+        level = "Basic"
+
+        [[params.language.list]]
+        language = "Mandarin"
+        level = "Basic"
+
+        [[params.language.list]]
+        language = "Arabic"
+        level = "Literary"
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Sport; Running, swimming, gym."
+
+        [[params.interests.list]]
+        interest = "Education; Tutored GCSE Mathematics privately, I have an interest in education especially combined with technology."
+
+        [[params.interests.list]]
+        interest = "Technology; RISC-V, MR/AR/VR; Mixed Reality, Augmented Reality, Virtual Reality. Solidity, Ethereum, GODOT, Elixir/Phoenix, AI; TensorFlow, DeepSpeech. C++, Linux; Gentoo, *BSD, Ruby, Ruby-on-Rails, RSpec, Shell scripting, Ethical hacking, C#, Unity3d, Unreal Engine, USRP/GNU Radio, React.js, jQuery, Metasploit, Wireshark, Kali, Qt, KDE, Python, OpenCV, WebGL, OpenGL, Vulkan, OpenCL, PostgreSQL, Tor, Docker, Git, Git LFS, GitLab, Puppet, Premiere Pro."
+
+        [[params.interests.list]]
+        interest = "Art; Blender, Maya, 3ds Max, V-Ray, Wacom Bamboo, Krita, Illustrator, Photoshop."
+
+        [[params.interests.list]]
+        interest = "Music; Guitar, Ocarina, Keyboard."
+
+        [[params.interests.list]]
+        interest = "Physics; Quantum Mechanics, Particle Physics, Thermonuclear Fusion (stable fusion reactions as a future energy source), Software-defined radio: GNU Radio, LimeSDR Mini."
+
+        [[params.interests.list]]
+        interest = "Videography; Filming and editing footage taken with the Panasonic GH5 and merging with audio recorded with the Zoom H4n."
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "**Andrew James Potter** I majored in Physics. I have worked as a developer and in particular as a Ruby-on-Rails developer. My main interest is education and I like to teach others the knowledge I have learnt myself. I have also tutored Mathematics privately. I also excel with technology. When I was 14 I emailed Nintendo asking what I needed to learn to make games. So from an early age I developed a strong interest in technology and began by learning the C++ programming language at approximately the age of 14 and learning GNU/Linux from the age of 15. I love pentesting with Kali Linux and Metasploit (ethical hacking). I am also fascinated by digital art creation in 3d and 2d and the application of Physics and Mathematics to create interactive art like videogames and simulations. I eventually developed a love for the Ruby programming language and in particular Ruby-on-Rails. I have developed a 3d Map App using Unity3d for iOS/Android/OSX/Windows 10. I discovered three confirmed bugs in Unity3d, which I was rewarded for by Unity.  I am an active member of both the Ruby and the Elixir meetup in Cambridge, which I am in the process of reviving and organising meetups. I have coached minority groups how to code. I am working on a community scaffolding project which has a focus on education and free courses called dinarly."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Work"
+
+        [[params.jobs.list]]
+        position = "Web Developer"
+        dates = "Oct 2017 - Present"
+        company = "United Nations Environment World Conservation Monitoring Centre, Cambridge"
+        details = "**Web Developer, Biodiversity Informatics**  Remote work; with visits to the office fortnightly. I proposed that we switch to Docker for local development. I introduced the use of Kali Linux and Metasploit for pentesting our websites. TDD, Agile development. Work on existing projects and also developing new solutions with the Informatics programme. This involves problem solving as well as thinking creatively to develop the end product. This includes work on Protected Planet - an interface for The World Database on Protected Areas (WDPA) - the most comprehensive global database on terrestrial and marine protected areas. Using React.js, Sidekiq, PostgreSQL, GDAL, PostGIS, Mapbox, Redis, Elasticsearch, Amazon AWS S3, Leaflet, jQuery, Atom, vim, tmux, iTerm, Google Analytics, GitHub, Slack, Skype, Trello, Office 365, Teamweek, Toggl, Dropbox. Development using GitHub, making Git pull requests, Ruby-on-Rails; adding fields to existing tables using migrations, use of Action Mailer to send email notifications, detecting modification to individual attributes to trigger email notifications, using byebug, coding rake tasks to import CSV seed data into a database, handling whitespace in CSV files, optimisation of code based on feedback, extracting the required information from each object and then returning an array which is sent to the frontend, writing tests, regression testing, fixing code which has broken, comparing JSON output to find regressions, using Travis CI, using Grape, Sinatra, RABL for a geospatial REST API, to extend the API and testing this using Postman, using Ruby metaprogramming to write tests for different attributes in a REST API, implementing the storing and accessing of data hashes using Redis where a database table is not appropriate, adding dynamic statistics."
+
+        [[params.jobs.list]]
+        position = "ICT Technician"
+        dates = "July 2014 - Oct 2017"
+        company = "Yateley School/Westfields Junior School, Hampshire"
+        details = "**ICT Assistant and Unity3d/Ruby-on-Rails Developer** Unity3d development of multi-platform school map App, development and deployment of Health & Safety Rails App, administering Moodle Virtual Learning Environment, school website content management using WordPress, installation and configuration of a GitLab server. Serving students and teachers, Spiceworks; issue ticket and tracking system, network cabling, re-configuring graphics cards, installing computers, Active Directory, Exchange, imaging machines, desktop roll-out, experience using file servers, installing and configuring VoIP software, writing how-to guides for various tasks, backup and restore (imaging) of laptops, Visual Basic programming; converting data from SIMS to Splicecom phone system, administration of examination software, logging calls with support tickets, managing Kerboodle accounts, managing disk space quotas, Papercut printer management, remote licensing of software, ABTutor remote control of machines, configuring Eclipse IDE for Python and Java development by the students, remote desktop control of servers (RDP)."
+
+        [[params.jobs.list]]
+        position = "Ruby-on-Rails Developer"
+        dates = "June 2015 - Oct 2015"
+        company = "Laverock von Schoultz, City of London"
+        details = "**Ruby-on-Rails Developer** fixing bugs in Ruby-on-Rails Web Apps for clients based in France and Israel, debugging code to more advanced skills. Familiarity with Ruby, JavaScript and HTML5/CSS3. Time management. Writing code in Ruby and JavaScript. Familiarity with Git and merging code conflicts. Familiarity with Jenkins. Fixing bugs in CSS3 code. Using JIRA."
+
+        [[params.jobs.list]]
+        position = "Retail assistant"
+        dates = "June 2014 - July 2014"
+        company = "Queen Elizabeth’s Foundation, Shepperton"
+        details = "Sorting out inventory. Customer service and deliveries."
+
+        [[params.jobs.list]]
+        position = "Retail assistant"
+        dates = ""
+        company = "O2, Staines"
+        details = "Stock auditing, counting and keeping track of stock, level of responsibility. Communication with customers, introducing and selling products, till work. Working in a team, communication with workers."
+
+        [[params.jobs.list]]
+        position = "Retail assistant"
+        dates = ""
+        company = "PC World, Staines"
+        details = "Knowledge of products and selling products."
+
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Projects"
+        intro = "**A list of side projects** (in chronological order)"
+
+        [[params.projects.list]]
+        title = "Strodes College Physics bridge building competition"
+        url = "https://drewpotter.com/assets/images/strodes-bridge-building-competition_original.png"
+        tagline = "Our team were awarded first prize at St. James’ Palace by the Duke of Edinburgh. “Nine of the college’s physicists won a bridge-building competition organised by the Science and Technology Research Organisation (SATRO). Working in a Physics lab in their spare time, Andrew Potter, Thomas Hayes, Nick Woods, Jan Nyeki, Maria Nyekiova, and Rob Evans designed, built and tested a bridge from glass fibre.” Press photo; August 2nd 2002;"
+        screenshot = "strodes-bridge-building-competition.png"
+
+        [[params.projects.list]]
+        title = "Wave Simulation software using the wave speed equation"
+        url = "https://drewpotter.com/assets/images/strodes-wave-simulation-app-original.png"
+        tagline = "Written in C++ using OpenGL 1.1. Compiled using Visual C++ on Windows and GNU GCC on Gentoo Linux. Programmed by Andrew Potter 2002."
+        screenshot = "strodes-wave-simulation-app.png"
+
+        [[params.projects.list]]
+        title = "Yateley School Map 3d."
+        url = "https://drewpotter.com/assets/images/yateley-school-map-original.gif"
+        tagline = "Programmed by Andrew Potter in 2017. Using Blender 3d and Blend4Web with Ruby on Rails and CoffeeScript."
+        screenshot = "yateley-school-map.gif"
+
+        [[params.projects.list]]
+        title = "dinarly"
+        url = "https://drewpotter.com/assets/images/dinarly-animated-logo-original.gif"
+        tagline = "dinarly is a reference to a golden age where knowledge was shared freely for the benefit of humanity. dinarly is scaffolding for your community, including an e-learning platform which will come loaded with educational content. The purpose is to serve humanity by providing this community scaffold – starting with education. Under active development."
+        screenshot = "dinarly-animated-logo.gif"
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Linux"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Elixir/Phoenix"
+        level = "30%"
+
+        [[params.skills.list]]
+        skill = "Ruby on Rails"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "Ethical hacking"
+        level = "30%"
+
+        [[params.skills.list]]
+        skill = "AI/Machine Learning"
+        level = "20%"
+
+        [[params.skills.list]]
+        skill = "Blockchain/Solidity"
+        level = "30%"
+
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    #
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = ""
