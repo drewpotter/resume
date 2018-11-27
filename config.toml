@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://drewpotter.com/"
+baseurl = "https://drewpotter.com/"
 languageCode = "en-gb"
 title = "Andrew James Potter CV"
 theme = "hugo-orbit-theme"
