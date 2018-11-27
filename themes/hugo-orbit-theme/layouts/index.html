@@ -12,7 +12,7 @@
 	<div class="main-wrapper">
 
     {{ if .Site.Params.summary.enable }}
-	{{ partial "summary.html" . }}
+	  {{ partial "summary.html" . }}
     {{ end }}
 
     {{ if .Site.Params.experiences.enable }}
@@ -23,8 +23,12 @@
     {{ partial "projects.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.reference.enable }}
+	  {{ partial "reference.html" . }}
+    {{ end }}
+
     {{ if .Site.Params.skills.enable }}
-	{{ partial "skills.html" . }}
+	  {{ partial "skills.html" . }}
     {{ end }}
 
 	</div><!--//main-body-->
