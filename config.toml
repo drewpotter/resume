@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://www.drewpotter.com/"
+baseurl = "http://drewpotter.com/"
 languageCode = "en-gb"
 title = "Andrew James Potter CV"
 theme = "hugo-orbit-theme"
@@ -24,7 +24,7 @@ disable404 = true
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles-6.css"
+    styles = "styles-5.css"
 
 # Sidebar sections
 
@@ -268,6 +268,10 @@ disable404 = true
         [[params.skills.list]]
         skill = "Blockchain/Solidity"
         level = "30%"
+
+        [[params.skills.list]]
+        skill = "Blender CGI/VFX"
+        level = "15%"
 
 
     # Footer section
