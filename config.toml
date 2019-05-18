@@ -239,6 +239,12 @@ disable404 = true
         tagline = "dinarly is a reference to a golden age where knowledge was shared freely for the benefit of humanity. dinarly is scaffolding for your community, including an e-learning platform which will come loaded with educational content. The purpose is to serve humanity by providing this community scaffold – starting with education. After a decade of research and development this is now being actively developed."
         screenshot = "dinarly-animated-logo.gif"
 
+        [[params.projects.list]]
+        title = "OpenFashionLabel"
+        url = "https://github.com/OpenFashionLabel/OpenFashionLabel"
+        tagline = "OpenFashionLabel is an open source bespoke virtual eco-fashion label using AI machine learning and CGI/VFX. The fashion designs will be freely redistributable under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)."
+        screenshot = "openfashionlabel.png"        
+
     # Skills section
     [params.skills]
         enable = true
