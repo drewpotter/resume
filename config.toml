@@ -14,8 +14,8 @@ disable404 = true
 [params]
 
 # Meta
-    description = "Hugo Responsive Resume/CV Theme for Developers"
-    author = "Pavel Kanyshev"
+    description = "Drew Potter CV"
+    author = "Andrew Potter"
 
 # Theme styles
 
@@ -173,7 +173,7 @@ disable404 = true
 
         [[params.jobs.list]]
         position = "Web Developer"
-        dates = "Oct 2017 - Present"
+        dates = "Oct 2017 - Mar 2020"
         company = "United Nations Environment World Conservation Monitoring Centre, Cambridge"
         details = "**Web Developer, Biodiversity Informatics**  Remote work; with visits to the office fortnightly. I proposed that we switch to Docker for local development. I introduced the use of Kali Linux and Metasploit for pentesting our websites. TDD, Agile development. Work on existing projects and also developing new solutions with the Informatics programme. This involves problem solving as well as thinking creatively to develop the end product. This includes work on Protected Planet - an interface for The World Database on Protected Areas (WDPA) - the most comprehensive global database on terrestrial and marine protected areas. Using React.js, Sidekiq, PostgreSQL, GDAL, PostGIS, Mapbox, Redis, Elasticsearch, Amazon AWS S3, Leaflet, jQuery, Atom, vim, tmux, iTerm, Google Analytics, GitHub, Slack, Skype, Trello, Office 365, Teamweek, Toggl, Dropbox. Development using GitHub, making Git pull requests, Ruby-on-Rails; adding fields to existing tables using migrations, use of Action Mailer to send email notifications, detecting modification to individual attributes to trigger email notifications, using byebug, coding rake tasks to import CSV seed data into a database, handling whitespace in CSV files, optimisation of code based on feedback, extracting the required information from each object and then returning an array which is sent to the frontend, writing tests, regression testing, fixing code which has broken, comparing JSON output to find regressions, using Travis CI, using Grape, Sinatra, RABL for a geospatial REST API, to extend the API and testing this using Postman, using Ruby metaprogramming to write tests for different attributes in a REST API, implementing the storing and accessing of data hashes using Redis where a database table is not appropriate, adding dynamic statistics."
 
@@ -235,15 +235,9 @@ disable404 = true
 
         [[params.projects.list]]
         title = "dinarly"
-        url = "/assets/images/dinarly-animated-logo-original.gif"
+        url = "/assets/images/dinarly-latest-screenshot.png"
         tagline = "dinarly is a reference to a golden age where knowledge was shared freely for the benefit of humanity. dinarly is scaffolding for your community, including an e-learning platform which will come loaded with educational content. The purpose is to serve humanity by providing this community scaffold – starting with education. After a decade of research and development this is now being actively developed."
-        screenshot = "dinarly-animated-logo.gif"
-
-        [[params.projects.list]]
-        title = "OpenFashionLabel"
-        url = "https://github.com/OpenFashionLabel/OpenFashionLabel"
-        tagline = "OpenFashionLabel is an open source bespoke virtual eco-fashion label using AI machine learning and CGI/VFX. The fashion designs will be freely redistributable under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)."
-        screenshot = "openfashionlabel.png"        
+        screenshot = "dinarly-latest-screenshot_small.png"
 
     # Skills section
     [params.skills]
