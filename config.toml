@@ -234,9 +234,9 @@ disable404 = true
         screenshot = "yateley-school-map.gif"
 
         [[params.projects.list]]
-        title = "dinarly"
+        title = "DINARLY"
         url = "/assets/images/dinarly-latest-screenshot.png"
-        tagline = "dinarly is a reference to a golden age where knowledge was shared freely for the benefit of humanity. dinarly is scaffolding for your community, including an e-learning platform which will come loaded with educational content. The purpose is to serve humanity by providing this community scaffold – starting with education. After a decade of research and development this is now being actively developed."
+        tagline = "DINARLY is a reference to a golden age where knowledge was shared freely for the benefit of humanity. DINARLY is scaffolding for your community, including an e-learning platform which will come loaded with educational content. The purpose is to serve humanity by providing this community scaffold – starting with education. After a decade of research and development this is now being actively developed."
         screenshot = "dinarly-latest-screenshot_small.png"
 
     # Skills section
