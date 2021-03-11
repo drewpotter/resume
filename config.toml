@@ -223,7 +223,7 @@ disable404 = true
 
         [[params.projects.list]]
         title = "Wave Simulation software using the wave speed equation"
-        url = "/assets/images/strodes-wave-simulation-app-original.png"
+        url = "https://www.youtube.com/watch?v=XoGHKp3PiHQ"
         tagline = "Written in C++ using OpenGL 1.1. Compiled using Visual C++ on Windows and GNU GCC on Gentoo Linux. Programmed by Andrew Potter 2002."
         screenshot = "strodes-wave-simulation-app.png"
 
