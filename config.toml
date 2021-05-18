@@ -155,7 +155,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Andrew James Potter** I majored in Physics. I have worked as a developer and in particular as a Ruby-on-Rails developer. My main interest is education and I like to teach others the knowledge I have learnt myself. I have also tutored Mathematics privately. I also excel with technology. When I was 14 I emailed Nintendo asking what I needed to learn to make games. So from an early age I developed a strong interest in technology and began by learning the C++ programming language at approximately the age of 14 and learning GNU/Linux from the age of 15. I love pentesting with Kali Linux and Metasploit (ethical hacking). I am also fascinated by digital art creation in 3d and 2d and the application of Physics and Mathematics to create interactive art like videogames and simulations. I eventually developed a love for the Ruby programming language and in particular Ruby-on-Rails. I have developed a 3d Map App using Unity3d for iOS/Android/OSX/Windows 10. I discovered three confirmed bugs in Unity3d, which I was rewarded for by Unity. I have coached minority groups how to code. I am working on a community scaffolding project which has a focus on education and free courses called dinarly."
+        summary = "**Andrew James Potter** I majored in Physics. I have worked as a developer and in particular as a Ruby-on-Rails developer. My main interest is education and I like to teach others the knowledge I have learnt myself. I have also tutored Mathematics privately. I also excel with technology. When I was 14 I emailed Nintendo asking what I needed to learn to make games. So from an early age I developed a strong interest in technology and began by learning the C++ programming language at approximately the age of 14 and learning GNU/Linux from the age of 15. I love pentesting with Kali Linux and Metasploit (ethical hacking). I am also fascinated by digital art creation in 3d and 2d and the application of Physics and Mathematics to create interactive art like videogames and simulations. I eventually developed a love for the Ruby programming language and in particular Ruby-on-Rails. I have developed a 3d Map App using Unity3d for iOS/Android/OSX/Windows 10. I discovered three confirmed bugs in Unity3d, which I was rewarded for by Unity. I have coached minority groups how to code. I am working on a community scaffolding project which has a focus on education and free courses called qalbAI."
 
     # Reference section
     [params.reference]
@@ -234,10 +234,10 @@ disable404 = true
         screenshot = "yateley-school-map.gif"
 
         [[params.projects.list]]
-        title = "DINARLY"
-        url = "/assets/images/dinarly-latest-screenshot.png"
-        tagline = "DINARLY is a reference to a golden age where knowledge was shared freely for the benefit of humanity. DINARLY is scaffolding for your community, including an e-learning platform which will come loaded with educational content. The purpose is to serve humanity by providing this community scaffold – starting with education. After a decade of research and development this is now being actively developed."
-        screenshot = "dinarly-latest-screenshot_small.png"
+        title = "QALB"
+        url = "/assets/images/qalb-latest-screenshot.png"
+        tagline = "QALB is a reference to the heart. QALB is scaffolding for your community, including an e-learning platform which will come loaded with educational content. After a decade of research and development this is now being actively developed."
+        screenshot = "qalb-latest-screenshot_small.png"
 
     # Skills section
     [params.skills]
